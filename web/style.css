@@ -1,0 +1,153 @@
+/* Base Style */
+body{font-family: 'Inter', sans-serif;font-size: 16px; padding:0px;background: #ffffff}
+
+a{text-decoration: none;}
+
+h1,h2, h3, h4, h5, p{color: #000; padding-bottom: 30px;}
+
+.big-text{font-size: 70px;}
+.medium-text{font-size: 40px;}
+.normal-text{font-size: 20px;}
+.small-text{font-size: 14px;}
+.intro-text{text-transform: uppercase;font-size: 20px;}
+
+.button{padding: 20px 30px;background: #000000;color:#fff;display: inline-block;border-radius:5px;}
+
+/* Header */
+
+.header{
+  width: 100%;
+  position: absolute;
+  padding: 30px;
+  display: flex;
+  background: #F3B81E;
+  
+}
+
+.menu{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.menu li{display: inline-block;}
+.menu li a{color: #fff;padding: 30px;display: block;font-weight: bold;}
+
+
+.bg_image{
+  margin-top: 142px;
+  background-image: url('slide1.jpeg');
+  width: 100%;
+}
+
+
+.logo{
+  margin-left: 25px;
+}
+
+.cta{
+  padding: 10px;
+  margin-right: 25px;
+}
+
+.img{
+  width: 80px;
+  height: 80px;
+  margin-left: 60px;
+}
+
+.icone{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding:30px 20px 0px 20px;
+  margin-left: 300px;
+
+}
+
+.icon{
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+.titolo_icon{
+  display: flex;
+  
+  margin-left: 350px;
+}
+
+.titolo{
+  display: flex;
+  padding: 25px 25px 25px 25px;
+}
+
+
+.titolo_primo{
+  
+  margin-left: 300px;
+  color:#000;
+}
+
+.titolo_secondo{
+  margin-left: 290px;
+  padding: 25px;
+  color:#000;
+}
+
+.titolo_terzo{
+  margin-left:250px;
+  padding: 70px;
+  color:#000;
+}
+
+.titolo_quarto{
+  margin-left: 285px;
+  color:#000;
+}
+
+
+.descrizione{
+    width: 15%;
+    position: absolute;
+    padding: 30px;
+    height: 300px;
+    display: flex;
+    background: #cfcbcb;
+    margin-left: 230px;
+    border-radius: 5%;
+    border:2px solid #000;
+}
+
+.descrizione_primo{
+  color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
